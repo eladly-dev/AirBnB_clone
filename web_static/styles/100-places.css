@@ -1,0 +1,155 @@
+.places h1 {
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.places article {
+	max-width: 390px;
+	width: 40%;
+	min-height: 745px;
+	height: 100%;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.fix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.places article > h2:first-child {
+	font-size: min(max(30px, 30px), 4vw);
+	margin: 0;
+	padding-bottom: 65px;
+}
+
+article .price_by_night {
+	color: #FF5A5F;
+	border: 4px solid #FF5A5F;
+	border-radius: 50%;
+	min-width: 60px;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: cetner;
+	padding: 10px;
+	font-size: 28px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.information {
+	height: 80px;
+	border: 1px solid #DDDDDD;
+	border-width: 1px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.information .max_guest::before {
+	content: url("../images/icon_group.png");
+	display: block;
+}
+
+.information .number_bathrooms::before {
+	content: url("../images/icon_bath.png");
+	display: block;
+}
+
+.information .number_rooms::before {
+	content: url("../images/icon_bed.png");
+	display: block;
+}
+
+.user {
+	text-align: left;
+	padding: 20px 0 10px;
+}
+
+.description {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.reviews {
+	margin-top: 40px;
+}
+
+.reviews,
+.amenities {
+	text-align: left;
+}
+
+.amenities h2,
+.reviews h2 {
+	border-bottom: 1px solid #DDDDDD;
+	text-align: left;
+	font-size: 16px;
+}
+
+.amenities ul,
+.reviews ul {
+	padding-left: 0;
+}
+
+.amenities li {
+	display: flex;
+	align-items: center;
+}
+
+.amenities li::before {
+	content: "";
+	width: 25px;
+	height: 25px;
+}
+
+.amenities li::after {
+	margin-left: 15px;
+}
+
+li.wifi::before {
+	background: url("../images/icon_wifi.png");
+	background-size: contain;
+}
+
+li.wifi::after {
+	content: "WiFi";
+}
+
+li.pets::before {
+	background: url("../images/icon_pets.png");
+	background-size: contain;
+}
+
+li.pets::after {
+	content: "Pets Friendly";
+}
+
+li.tv::before {
+	background: url("../images/icon_tv.png");
+	background-size: contain;
+}
+
+li.tv::after {
+	content: "TV";
+}
+
+.reviews h3 {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.reviews p {
+	font-size: 12px;
+	margin-top: 4px;
+}
