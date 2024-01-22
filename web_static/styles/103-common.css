@@ -1,0 +1,43 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	color: #484848;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-height: 100vh;
+	position: relative;
+}
+
+.container {
+	max-width: 70%;
+	margin: 30px auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	line-height: 1.5;
+	font-size: 1em;
+}
+
+/* Phone devices */
+@media screen and (max-width: 480px) {
+	.container {
+		max-width: 100%;
+	}
+}
+
+/* Ipad and Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
+/* Laptops and small screen */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.container {
+		max-width: 80%;
+	}
+}

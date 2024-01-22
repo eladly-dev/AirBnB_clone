@@ -1,0 +1,15 @@
+footer {
+	clear: both;
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	position: absolute;
+	bottom: 0;
+	line-height: 30px;
+	text-align: center;
+}
+
+.clear {
+	height: 60px;
+}
